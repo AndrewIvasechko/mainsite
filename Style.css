@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+.row{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.col1{
+  width: 30%;
+  height: 100%;
+  background: grey;
+}
+.col2{
+  width:70%;
+  height: 100%;
+}
+.name{
+  font-size: 35px;
+  font-weight: bold;
+  color:rgb(50,50,50);
+  padding: 20px 0px 30px 50px;
+  text-transform: uppercase;
+}
+.photo{
+  margin: 10px;
+  width:210px;
+  height: 280px;
+  background-image: url(Фотка.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 30px;
+}
+.title{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.col1__title{
+  color: white;
+  padding: 30px;
+}
+.lable{
+  font-size: 17px;
+}
+.lable h1{
+  font-size: 17px;
+}
+.col1__lable{
+  padding-left: 30px;
+  color: white;
+}
+.col1__hr{
+  margin-left: 30px;
+}
+.col2__content{
+  padding-left: 30px;
+}
+.col2__lable{
+  color: rgb(50,50,50);
+  padding-top: 20px;
+}
+.col2__title{
+  color: rgb(50,50,50);
+  padding: 20px 0;
+}
+.col2__lable ul{
+  margin-top:-10px;
+}
+.col2__lable ul li{
+  padding-bottom: 5px;
+}
